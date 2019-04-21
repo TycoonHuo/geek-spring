@@ -1,0 +1,1 @@
+insert into FOO values (1,'自动创建FOO表和插入')

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="druid-demo" />
+        <module name="geek-spring-all" />
+        <module name="multi-datasource-demo" />
+        <module name="simple-jdbc-demo" />
+        <module name="spring-bucks" />
+        <module name="tx-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="druid-demo" target="1.8" />
+      <module name="geek-spring-all" target="1.8" />
+      <module name="multi-datasource-demo" target="1.8" />
+      <module name="simple-jdbc-demo" target="1.8" />
+      <module name="spring-bucks" target="1.8" />
+      <module name="tx-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="druid-demo" options="-parameters" />
+      <module name="geek-spring-all" options="-parameters" />
+      <module name="multi-datasource-demo" options="-parameters" />
+      <module name="simple-jdbc-demo" options="-parameters" />
+      <module name="spring-bucks" options="-parameters" />
+      <module name="tx-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

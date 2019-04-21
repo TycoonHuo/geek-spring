@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:example
+    username: root
+    password: 123456
+    druid:
+      max-wait: 30000
+      query-timeout: 10
+      validation-query: SELECT 1
+      use-global-data-source-stat: true
+      # ¿ªÆô¼à¿ØÒ³Ãæ
+      stat-view-servlet:
+        enabled: true
+      filters: stat,coon
+      filter:
+        config:
+          enabled: true

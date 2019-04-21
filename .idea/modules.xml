@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/druid-demo/druid-demo.iml" filepath="$PROJECT_DIR$/druid-demo/druid-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/geek-spring.iml" filepath="$PROJECT_DIR$/.idea/geek-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geek-spring-all/geek-spring-all.iml" filepath="$PROJECT_DIR$/geek-spring-all/geek-spring-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-datasource-demo/multi-datasource-demo.iml" filepath="$PROJECT_DIR$/multi-datasource-demo/multi-datasource-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-jdbc-demo/simple-jdbc-demo.iml" filepath="$PROJECT_DIR$/simple-jdbc-demo/simple-jdbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-bucks/spring-bucks.iml" filepath="$PROJECT_DIR$/spring-bucks/spring-bucks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-demo/tx-demo.iml" filepath="$PROJECT_DIR$/tx-demo/tx-demo.iml" />
+    </modules>
+  </component>
+</project>

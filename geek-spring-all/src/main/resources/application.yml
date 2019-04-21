@@ -1,0 +1,11 @@
+#spring:
+#  datasource:
+#    initialization-mode: embedded
+#    schema: schema.sql
+#    data: data.sql
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          '*'
